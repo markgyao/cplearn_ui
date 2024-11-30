@@ -1,0 +1,62 @@
+footer {
+    margin-top: 80%;
+    z-index: 100;
+    height:250px;
+    background-color: #df7373;
+    width: 100%;
+    position:absolute;
+    left:0;
+}
+
+.footer {
+    font-family: "Covered By Your Grace", cursive;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    font-size: 30px;
+}
+
+.footerleft {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+    gap: 0;
+    width: 100%;
+}
+
+.aboutus {
+    width:47%;
+}
+
+.aboutus:hover,
+.footeracademics:hover,
+.conduct:hover,
+.footercontact:hover {
+    opacity: .65;
+    cursor: pointer;
+    transition: opacity 0.350s;
+}
+
+.footeracademics {
+    width:100%;
+}
+
+.conduct {
+    width:67%;
+}
+
+.footercontact {
+    width:60%;
+}
+
+
+.footerright {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center; 
+    height:250px;
+}

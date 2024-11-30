@@ -1,0 +1,98 @@
+header {
+    width:97%;
+    height:75px;
+    display: grid;
+    grid-template-columns: 600px 1fr 700px;
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+    z-index: 100;
+    margin: 0 auto;
+    border-bottom: 0 solid transparent;
+    background-color: white;
+}
+
+header.scrolled {
+    border-bottom: 2px solid #df7373;
+    transition: border-bottom 0.10s;
+}
+
+.covered-by-your-grace-regular {
+    font-family: "Covered By Your Grace", cursive;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.left {
+    align-items: center;    
+    font-size: 50px;
+    margin-left:50px;
+    color: #CC444B;
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+.right {    
+    justify-content: space-evenly;
+    align-items: center;
+    display:flex;
+    margin-left:50px;
+
+}
+
+.academics {
+    font-size: 25px;
+    font-family: "Covered By Your Grace", cursive;
+    color: #323335;
+    text-decoration: none;
+}
+
+.academics:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    text-decoration: underline;
+    transition: opacity 0.15s;
+    transition: text-decoration 0.15s;
+}
+
+.contact {
+    font-size: 25px;
+    font-family: "Covered By Your Grace", cursive;
+    color: #323335;
+    text-decoration: none;
+}
+
+.contact:hover {
+    cursor: pointer;
+    opacity: 0.9    ;
+    text-decoration: underline;
+    transition: opacity 0.15s;
+    transition: text-decoration 0.15s;
+}
+
+.contact:hover {
+    cursor: pointer;
+    opacity: 0.85;
+    transition: opacity 0.15s; 
+}
+
+.login {
+    align-items: center;
+    border-style: solid;
+    border-color: #da5552;
+    background-color: #da5552;
+    font-family: "Covered By Your Grace", cursive;
+    font-size: 25px;
+    color: white;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.login:hover {
+    cursor: pointer;
+    opacity: 0.85;
+    transition: opacity 0.15s;
+}

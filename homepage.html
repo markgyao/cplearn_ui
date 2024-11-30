@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Club</title>
+</head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet"> 
+<link rel = "stylesheet" href = "header.css">
+<link rel = "stylesheet" href = "main.css">
+<link rel = "stylesheet" href = "footer.css">
+
+<header id = "header">
+    <div class = "left">
+        Smart Club
+    </div>
+    <div class = "middle">
+
+    </div>
+    <div class = "right">
+        <div>
+            <a href = "academics.html" class = "academics">
+                Academics
+            </a>
+        </div>
+        <div>
+            <a href = "contact.html" class = "contact">
+                Contact Us
+            </a>
+        </div>
+        <div>
+            <a href = "login.html">
+                <button class = "login">Log in</button>
+            </a>
+        </div>
+    </div>
+</header>
+
+<script>
+    document.addEventListener("scroll", () => {
+    const header = document.getElementById("header");
+    if (window.scrollY > 50) {
+        header.classList.add("scrolled");
+    } else {
+        header.classList.remove("scrolled");
+    }
+});
+</script>
+
+<body style = "height: 100%;">
+
+<main id = "page" class = "main">
+    <div class = "box1">    
+        Hello we are smart club we teach
+    </div>
+    <div class = "img1">
+        <img src = mainpngs/main1.jpg class = "main1">
+    </div>
+    <div class = "box2">
+        HELLO WE ARE BOX2
+    </div>
+    <div class = "box3">
+        HELLO I AM BOX3
+    </div>
+    <div class = "divider1" id="image-track" data-mouse-down-at="0" data-prev-percentage="0">
+        <img src = mainpngs/img2.jpg class = "img">
+        <img src = mainpngs/img3.jpg class = "img">
+        <img src = mainpngs/img4.jpg class = "img">
+        <img src = mainpngs/img5.jpg class = "img">
+        <img src = mainpngs/img6.jpg class = "img">
+        <img src = mainpngs/img7.jpg class = "img">
+    </div>
+</main>
+
+<footer>
+    <div class = "footer">
+        <div class = "footerleft"> 
+            <div class = "aboutus">
+                About Us
+            </div>
+            <div class = "footeracademics">
+                Academics & Pricing
+            </div>
+            <div class = "conduct">
+                Conduct Oath
+            </div>
+            <div class = "footercontact">
+                Contact Us
+            </div>
+        </div>
+        <div class = "footerright">
+            <div class = "mapimg">
+                <div style="width: 100%"><iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=200&amp;hl=en&amp;q=143-30%20Cherry%20Ave,%20Flushing,%20NY%2011355+(Vivien%20Smart%20Club)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps tracker sport</a></iframe></div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
