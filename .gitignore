@@ -1,0 +1,82 @@
+# Node modules
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Cache
+.cache/
+.nyc_output/
+coverage/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment Variables
+.env
+.env.*.local
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript
+*.tsbuildinfo
+
+# Parcel-bundler cache (if used)
+.cache/
+
+# Storybook files
+.storybook/
+stories/
+
+# Testing
+coverage/
+*.snap
+
+# Mac specific files
+*.DS_Store
+
+# Generated files
+.pnp
+.pnp.js
+
+# TypeScript compile output
+*.js
+*.jsx
+*.d.ts
+*.map
+
+# Next.js output
+.next/
+out/
+
+# Remix output
+.build/
+
+# Yarn
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
